@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Open Sans;
+    src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: Open Sans, sans-serif;
+    background-image: url(../assets/img/Liverpool_football_club_pitch_entrance.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-large);
+}
+
+.heading__paragraph{
+    padding: var(--spacing-meduim);
+    font-weight: 600;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link__container{
+    background-color: red;
+    width: 50%;
+    height: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, minmax(200px, 1fr));
+    padding: var(--spacing-small) var(--spacing-meduim);
+}
+
+.link__button{
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-small);
+    border: var(--link-border);
+    border-radius: var(--link-border-radius);
+    text-decoration: none;
+}

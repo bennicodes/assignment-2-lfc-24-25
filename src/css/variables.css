@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --navbar-background-color: red;
+  --navbar-foreground-color: #fff;
+  --navbar-hover-color: #c0c0c0;
+  /* Spacing */
+  --spacing-small: 0.5rem;
+  --spacing-meduim: 1rem;
+  --spacing-large: 2rem;
+  --spacing-x-large: 4rem;
+
+  /* Font size */
+  --font-size-base: 1rem;
+  --font-size-meduim: 1.2rem;
+  --font-size-large: 1.5rem;
+  --font-size-x-large: 2rem;
+
+  /* Borders */
+  --link-border: 1px solid #fff;
+  --link-border-radius: 16px;
+}
