@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="icon" href="" type="image/x-icon" /> -->
     <title>LFC 24/25</title>
@@ -26,20 +27,26 @@
       <div class="navbar__links">
         <ul class="navbar__links-list">
           <li class="navbar__item">
-            <a href="#" class="navbar__link navbar__link--active">Home</a>
+            <a href="index.html" class="navbar__link navbar__link--active"
+              >Home</a
+            >
           </li>
           <p>|</p>
           <li class="navbar__item">
-            <a href="" class="navbar__link">Squad</a>
+            <a href="./pages/squad.html" class="navbar__link">Squad</a>
           </li>
           <p>|</p>
           <li class="navbar__item">
-            <a href="" class="navbar__link">Table</a>
+            <a href="./pages/table.html" class="navbar__link">Table</a>
           </li>
         </ul>
       </div>
       <div class="navbar__sponsor--logo">
-        <img src="./assets/icons/sponsor-logo.svg" alt="" class="sponsor__logo--img">
+        <img
+          src="./assets/icons/sponsor-logo.svg"
+          alt=""
+          class="sponsor__logo--img"
+        />
       </div>
       <div class="navbar__menu">
         <button class="navbar__toggle">
@@ -122,11 +129,82 @@
       </div>
     </header>
     <main>
-        <section class="main__container">
-            <div class="link__container">
-                
-            </div>
-        </section>
+      <section class="main__container">
+        <div class="link__container">
+          <p class="link__paragraph">Squad List</p>
+          <a href="./pages/squad.html" class="link__button"
+            ><img
+              src="./assets/icons/arrow-right-svgrepo-com.svg"
+              alt="left arrow"
+              class="left-arrow"
+          /></a>
+        </div>
+        <div class="link__container">
+          <p class="link__paragraph">Premier League Table</p>
+          <a href="./pages/table.html" class="link__button"
+            ><img
+              src="./assets/icons/arrow-right-svgrepo-com.svg"
+              alt="right arrow"
+          /></a>
+        </div>
+      </section>
     </main>
+    <footer>
+      <section class="sponsor__section">
+        <p class="sponsor__paragraph">Sponsored by:</p>
+        <div class="sponsor__logo--container">
+          <img
+            src="./assets/icons/standr-chart-sponsor.svg"
+            alt="Standard Chartered Logo"
+            class="sponsor__logo"
+          />
+          <img
+            src="./assets/icons/Nike_White_sponsor.svg"
+            alt="Nike Logo"
+            class="sponsor__logo"
+          />
+          <img
+            src="./assets/icons/AXA_White_sponsor.svg"
+            alt="Axa Logo"
+            class="sponsor__logo"
+          />
+          <img
+            src="./assets/icons/Expedia_Logo_sponsor .svg"
+            alt="Expedia Logo"
+            class="sponsor__logo"
+          />
+        </div>
+      </section>
+      <section class="company__section">
+        <div class="footer__list--container">
+          <ul class="footer__list">
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">PRIVACY POLICY</a>
+            </li>
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">TERMS AND CONDITIONS</a>
+            </li>
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">ANTI-SLAVERY</a>
+            </li>
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">COOKIES </a>
+            </li>
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">HELP</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list">
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">CONTACT US</a>
+            </li>
+            <li class="footer__list--content">
+              <a href="#" class="footer__list--link">ACCESSIBILITY</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

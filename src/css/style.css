@@ -1,52 +1,66 @@
 @font-face {
-    font-family: Open Sans;
-    src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-family: Open Sans;
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
-body{
-    width: 100%;
-    min-height: 100vh;
-    font-family: Open Sans, sans-serif;
-    background-image: url(../assets/img/Liverpool_football_club_pitch_entrance.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Open Sans, sans-serif;
+  background-image: url(../assets/img/Liverpool_football_club_pitch_entrance.jpeg);
+  background-size: contain;
 }
 
-.heading__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: var(--spacing-large);
+main {
+  height: 70vh;
 }
 
-.heading__paragraph{
-    padding: var(--spacing-meduim);
-    font-weight: 600;
+.heading__container {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-large);
 }
 
-.main__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.heading__paragraph {
+  padding: var(--spacing-meduim);
+  font-weight: 600;
 }
 
-.link__container{
-    background-color: red;
-    width: 50%;
-    height: 8rem;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
-    grid-template-rows: repeat(2, minmax(200px, 1fr));
-    padding: var(--spacing-small) var(--spacing-meduim);
+.main__container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.link__button{
-    color: white;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: var(--spacing-small);
-    border: var(--link-border);
-    border-radius: var(--link-border-radius);
-    text-decoration: none;
+.link__container {
+  background-color: #e20000;
+  color: #fff;
+  width: 20%;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link__button {
+  color: white;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-small);
+  border: var(--link-border);
+  border-radius: var(--link-border-radius);
+  text-decoration: none;
+}
+.left-arrow {
+  transform: rotate(180deg);
+}
+
+.link__button:hover {
+  background-color: #bc0808;
+  transition: 0.3s ease;
 }

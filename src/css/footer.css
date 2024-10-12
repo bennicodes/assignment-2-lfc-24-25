@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
+footer {
+  font-family: Open Sans, sans-serif;
+}
+
+.sponsor__section {
+  background-color: var(--footer-background-color-light);
+  color: var(--foreground-color);
+  width: 100%;
+  padding: var(--spacing-meduim);
+}
+
+.sponsor__logo--container {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-small);
+}
+
+.company__section {
+  background-color: var(--footer-background-color-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-large);
+  border-bottom: 1px solid #ccc;
+}
+
+.footer__list--container {
+  display: flex;
+  gap: var(--spacing-large);
+  padding-bottom: var(--spacing-meduim);
+}
+
+.footer__list--link {
+  color: var(--footer-link-color);
+  font-size: 0.7rem;
+  text-decoration: none;
+}

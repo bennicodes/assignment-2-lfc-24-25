@@ -1,8 +1,8 @@
 :root {
   /* Colors */
-  --navbar-background-color: red;
-  --navbar-foreground-color: #fff;
-  --navbar-hover-color: #c0c0c0;
+    --background-color: ;
+    --foreground-color: #fff;
+
   /* Spacing */
   --spacing-small: 0.5rem;
   --spacing-meduim: 1rem;
@@ -18,4 +18,14 @@
   /* Borders */
   --link-border: 1px solid #fff;
   --link-border-radius: 16px;
+
+  /* Navbar */
+  --navbar-background-color: #e20000;
+  --navbar-foreground-color: #fff;
+  --navbar-hover-color: #af2828;
+
+  /* Footer */
+  --footer-background-color-dark: #840e0e;
+  --footer-background-color-light: #e20000;
+  --footer-link-color: #ccc;
 }
