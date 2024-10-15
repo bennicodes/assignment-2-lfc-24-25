@@ -25,18 +25,45 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-large);
+  padding: var(--spacing-meduim) var(--spacing-large);
   border-bottom: 1px solid #ccc;
 }
 
 .footer__list--container {
   display: flex;
   gap: var(--spacing-large);
-  padding-bottom: var(--spacing-meduim);
 }
 
 .footer__list--link {
   color: var(--footer-link-color);
   font-size: 0.7rem;
   text-decoration: none;
+}
+
+.footer__socials--container {
+  display: flex;
+  gap: var(--spacing-large);
+  justify-content: center;
+  margin-right: var(--spacing-meduim);
+}
+
+.copyright__section {
+  background-color: var(--footer-background-color-dark);
+  color: var(--footer-link-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-large);
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.copyright__paragraph {
+  letter-spacing: 1px;
+}
+
+/* Psuedo classes */
+.footer__list--link:hover {
+  text-decoration: underline;
 }
