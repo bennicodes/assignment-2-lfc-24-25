@@ -3,11 +3,6 @@
   src: url(../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
-@font-face {
-  font-family: Piedra;
-  src: url(../assets/fonts/Piedra-Regular.ttf);
-}
-
 body {
   width: 100%;
   min-height: 100vh;
@@ -65,13 +60,16 @@ main {
   padding: var(--spacing-meduim);
   margin: var(--spacing-large) 0 var(--spacing-large) var(--spacing-meduim);
   border-radius: var(--link-border-radius);
+  font-family: Open Sans, sans-serif;
   font-size: var(--font-size-base);
 }
 
-.goalkeeper__section {
+.section__container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding-bottom: var(--spacing-x-large);
+  border-bottom: 1px solid #000;
   font-family: Open Sans, sans-serif;
 }
 
@@ -87,29 +85,31 @@ main {
   padding: var(--spacing-meduim);
   border: 1px solid #d8d8d8;
   border-radius: 4px;
+  box-shadow: 0 4px 4px #919191;
 }
 
-.card-header{
+.card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 var(--spacing-large);
 }
 
-.card__heading{
+.card__heading {
   font-size: var(--font-size-large);
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.card__number{
-  font-family: Piedra, serif;
-  font-size: calc(var(--font-size-large)*1.5 );
+.card__number {
+  font-family: Open Sans, sans-serif;
+  font-size: calc(var(--font-size-large) * 1.5);
+  font-weight: 600;
 }
 
-.card__img--container{
+.card__img--container {
   width: 350px;
   height: 100%;
-  padding:0 var(--spacing-meduim);
+  padding: 0 var(--spacing-meduim);
 }
 
 .card__image {
@@ -117,9 +117,10 @@ main {
   padding: var(--spacing-meduim) 0;
 }
 
-.card__paragraph{
+.card__paragraph {
+  padding: var(--spacing-meduim);
   text-align: center;
   font-family: Open Sans, sans-serif;
   font-size: var(--font-size-large);
-  font-weight: 500;
+  font-weight: 600;
 }
