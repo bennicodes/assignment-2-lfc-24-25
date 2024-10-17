@@ -8,3 +8,68 @@ body {
   min-height: 100vh;
   background-color: white;
 }
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__container {
+  background-color: var(--navbar-background-color);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-large);
+}
+
+.header__img {
+  height: 400px;
+}
+
+.main-heading {
+  background-color: var(--navbar-background-color);
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-large);
+  font-family: Open Sans, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Main */
+
+main {
+  padding: var(--spacing-large);
+}
+
+.section__heading {
+  background-color: black;
+  color: white;
+  width: 15%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-meduim);
+  margin: var(--spacing-large) 0 var(--spacing-large) var(--spacing-meduim);
+  border-radius: var(--link-border-radius);
+}
+
+.goalkeeper__section {
+  display: flex;
+  align-items: center;
+}
+
+/* Card Styling */
+.card__container {
+  width: 350px;
+  height: 400px;
+  border: 1px solid #d8d8d8;
+}
