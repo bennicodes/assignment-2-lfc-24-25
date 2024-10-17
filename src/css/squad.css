@@ -3,6 +3,11 @@
   src: url(../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
+@font-face {
+  font-family: Piedra;
+  src: url(../assets/fonts/Piedra-Regular.ttf);
+}
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -60,16 +65,61 @@ main {
   padding: var(--spacing-meduim);
   margin: var(--spacing-large) 0 var(--spacing-large) var(--spacing-meduim);
   border-radius: var(--link-border-radius);
+  font-size: var(--font-size-base);
 }
 
 .goalkeeper__section {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  font-family: Open Sans, sans-serif;
 }
 
 /* Card Styling */
 .card__container {
+  background-image: linear-gradient(to bottom, #fff, lightgrey);
   width: 350px;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-meduim);
   border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--spacing-large);
+}
+
+.card__heading{
+  font-size: var(--font-size-large);
+  font-weight: 400;
+}
+
+.card__number{
+  font-family: Piedra, serif;
+  font-size: calc(var(--font-size-large)*1.5 );
+}
+
+.card__img--container{
+  width: 350px;
+  height: 100%;
+  padding:0 var(--spacing-meduim);
+}
+
+.card__image {
+  width: 100%;
+  padding: var(--spacing-meduim) 0;
+}
+
+.card__paragraph{
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  font-size: var(--font-size-large);
+  font-weight: 500;
 }
