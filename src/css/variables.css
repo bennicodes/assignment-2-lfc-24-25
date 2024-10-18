@@ -18,6 +18,7 @@
   /* Borders */
   --link-border: 1px solid #fff;
   --link-border-radius: 16px;
+  --card-border-radius: 1rem;
 
   /* Navbar */
   --navbar-background-color: #e20000;
