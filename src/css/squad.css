@@ -52,7 +52,7 @@ main {
 .section__heading {
   background-color: black;
   color: white;
-  width: 15%;
+  width: 150px;
   height: 2rem;
   display: flex;
   justify-content: center;
@@ -65,8 +65,10 @@ main {
 }
 
 .section__container {
-  width: 100%;
+  max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-x-large);
   align-items: center;
   justify-content: space-evenly;
   padding-bottom: var(--spacing-x-large);
@@ -183,4 +185,25 @@ card__header--back {
 /* Player Card */
 .card__container:hover {
   transform: rotateY(180deg);
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .header__img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-heading{
+    font-size: var(--font-size-meduim);
+  }
+}
+@media screen and (max-width: 400px) {
+  .card__container{
+    width: 250px;
+  }
+  .card__content{
+    width: 250px;
+  }
 }
