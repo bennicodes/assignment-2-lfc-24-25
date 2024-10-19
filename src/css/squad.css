@@ -76,6 +76,10 @@ main {
   font-family: Open Sans, sans-serif;
 }
 
+.attacker-section{
+  border-bottom: none;
+}
+
 /* Card Styling */
 .card__container {
   background-image: linear-gradient(to bottom, #fff, lightgrey);
@@ -172,7 +176,7 @@ card__header--back {
   display: flex;
   justify-content: space-between;
   padding: var(--spacing-small);
-  margin: 0 var(--spacing-meduim);
+  margin: 0 var(--spacing-small);
   border-bottom: 1px solid #fff;
 }
 
@@ -189,21 +193,21 @@ card__header--back {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
-  .header__img{
+  .header__img {
     display: none;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .main-heading{
+  .main-heading {
     font-size: var(--font-size-meduim);
   }
 }
 @media screen and (max-width: 400px) {
-  .card__container{
+  .card__container {
     width: 250px;
   }
-  .card__content{
+  .card__content {
     width: 250px;
   }
 }
