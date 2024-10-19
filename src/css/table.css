@@ -83,7 +83,9 @@ td{
     /* display: flex; */
     /* justify-content: center; */
     text-align: center;
-
+}
+.position__indicator{
+    width: 50px;
 }
 .position__container{
     color: #4c4c4c;
