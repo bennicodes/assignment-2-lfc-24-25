@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceberg&display=swap");
+
 @font-face {
   font-family: Open Sans;
   src: url(../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
@@ -133,13 +135,13 @@ card__header--back {
 .card__heading {
   height: 25%;
   font-size: var(--font-size-large);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .card__number {
-  font-family: Open Sans, sans-serif;
-  font-size: calc(var(--font-size-large) * 1.5);
-  font-weight: 600;
+  font-family: "Iceberg", sans-serif;
+  font-size: calc(var(--font-size-x-large) * 1.5);
+  font-weight: 500;
 }
 
 .card__img--container {
