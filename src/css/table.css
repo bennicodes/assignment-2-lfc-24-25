@@ -51,12 +51,12 @@ main {
 }
 
 /* Table */
-.pl-table {
+table {
   width: 100%;
   font-family: Open Sans, sans-serif;
   font-weight: 600;
-  font-size: 0.8rem;
   padding: var(--spacing-x-large);
+  margin-bottom: var(--spacing-large);
 }
 
 tr {
@@ -73,13 +73,14 @@ tr {
 }
 
 .position-heading {
-  text-align: center;
+  text-align: left;
 }
 
 /* Table Body */
-tr {
-  border-top: 1px solid #797979;
-  border-bottom: 1px solid #797979;
+tr,
+td {
+  padding: var(--spacing-small) 0;
+  border-top: 1px solid #727272;
 }
 
 td {
@@ -88,18 +89,11 @@ td {
   font-weight: 500;
 }
 
-.position__indicator {
-  width: 50px;
+.position__number {
+  text-align: center;
 }
-
-.position__container {
-  color: #4c4c4c;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: var(--spacing-meduim);
-  padding: var(--spacing-small) 0;
+.position__indicator {
+  text-align: left;
 }
 
 .club__container {
@@ -114,6 +108,6 @@ td {
 
 .club__name {
   color: #4c4c4c;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
 }
