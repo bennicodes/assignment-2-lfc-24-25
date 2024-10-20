@@ -136,4 +136,7 @@ td {
   .header__logo{
     width: 32px;
   }
+  table{
+    padding: 0;
+  }
 }

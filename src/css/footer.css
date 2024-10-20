@@ -74,4 +74,14 @@ footer {
   .sponsor__logo--container {
     flex-wrap: wrap;
   }
+  .company__section {
+    padding: var(--spacing-meduim);
+  }
+  .footer__list--container {
+    gap: var(--spacing-meduim);
+  }
+  .footer__socials--container {
+    gap: var(--spacing-meduim);
+    margin-right: var(--spacing-small);
+  }
 }
