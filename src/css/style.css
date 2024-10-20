@@ -7,16 +7,13 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: Open Sans, sans-serif;
-  background-image: url(../assets/img/Liverpool_football_club_pitch_entrance.jpeg);
-  background-size: contain;
 }
 
-main {
-  height: 70vh;
-}
-
+/* Header */
 .heading__container {
-  color: red;
+  width: 100%;
+  background-color: var(--navbar-background-color);
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,17 +25,43 @@ main {
   font-weight: 600;
 }
 
-.main__container {
+/* Main */
+main {
+  background-color: #e20000;
   width: 100%;
-  min-height: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__background--container {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/Liverpool_football_club_pitch_entrance.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
+}
+
+.main__link--container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__container {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-x-large);
 }
 
 .link__container {
   background-color: #e20000;
   color: #fff;
-  width: 20%;
+  width: 100%;
   height: 8rem;
   display: flex;
   flex-direction: column;
@@ -46,14 +69,16 @@ main {
   align-items: center;
 }
 
-.link__paragraph{
+.link__paragraph {
+  height: 40px;
   font-weight: 500;
   text-align: center;
+  padding: var(--spacing-small);
 }
 
 .link__button {
   color: white;
-  width: 25%;
+  width: 50%;
   display: flex;
   justify-content: center;
   padding: var(--spacing-small);
@@ -65,7 +90,28 @@ main {
   transform: rotate(180deg);
 }
 
+/* Psuedo Classes */
 .link__button:hover {
   background-color: #a40606;
   transition: 0.3s ease;
+}
+
+/* Media queries */
+@media screen and (max-width: 700px) {
+  .main__container {
+    width: 100%;
+  }
+  .main__background--container {
+    background-size: contain;
+    background-position: inherit;
+  }
+  .main__link--container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main__heading {
+    font-size: var(--font-size-large);
+  }
 }

@@ -59,12 +59,6 @@ table {
   margin-bottom: var(--spacing-large);
 }
 
-tr {
-  border: 1px solid #797979;
-  border-top: 1px solid #797979;
-  border-bottom: 1px solid #797979;
-}
-
 /* Table Head */
 .table__heading {
   color: #727272;
@@ -110,4 +104,36 @@ td {
   color: #4c4c4c;
   font-weight: 500;
   text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  main{
+    padding: var(--spacing-meduim);
+  }
+  table{
+    padding: var(--spacing-meduim);
+  }
+  .goal-stats{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  header{
+    padding: var(--spacing-x-large) var(--spacing-meduim);
+  }
+  .main__heading--container{
+    width: 200px;
+    /* height: auto; */
+  }
+  .main__heading{
+    padding: var(--spacing-meduim) var(--spacing-small);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header__logo{
+    width: 32px;
+  }
 }

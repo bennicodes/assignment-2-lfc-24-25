@@ -17,7 +17,8 @@ footer {
 .sponsor__logo--container {
   display: flex;
   justify-content: space-between;
-  padding: var(--spacing-small);
+  flex-wrap: wrap;
+  gap: var(--spacing-meduim);
 }
 
 .company__section {
@@ -66,4 +67,11 @@ footer {
 /* Psuedo classes */
 .footer__list--link:hover {
   text-decoration: underline;
+}
+
+/* Media queries */
+@media screen and (max-width: 550px) {
+  .sponsor__logo--container {
+    flex-wrap: wrap;
+  }
 }
