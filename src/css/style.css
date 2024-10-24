@@ -4,6 +4,7 @@
 }
 
 body {
+  min-width: 320px;
   width: 100%;
   min-height: 100vh;
   font-family: Open Sans, sans-serif;
@@ -110,8 +111,32 @@ main {
   }
 }
 
+@media screen and (max-width: 620px) {
+  body {
+    min-height: 100vh;
+  }
+  .main__background--container {
+    align-items: end;
+    padding-bottom: var(--spacing-large);
+  }
+}
+
 @media screen and (max-width: 420px) {
   .main__heading {
     font-size: var(--font-size-large);
+  }
+  .main__background--container {
+    align-items: center;
+    padding-top: var(--spacing-x-large);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main__heading {
+    text-align: center;
+  }
+  .main__link--container {
+    margin-top: 5rem;
+    font-size: 0.8rem;
   }
 }

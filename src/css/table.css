@@ -1,4 +1,5 @@
 body {
+  min-width: 320px;
   width: 100%;
   min-height: 100vh;
 }
@@ -108,35 +109,41 @@ td {
 
 /* Media queries */
 @media screen and (max-width: 768px) {
-  main{
+  main {
     padding: var(--spacing-meduim);
   }
-  table{
+  table {
     padding: var(--spacing-meduim);
   }
-  .goal-stats{
+  /* .goal-stats {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 690px) {
-  header{
+  header {
     padding: var(--spacing-x-large) var(--spacing-meduim);
   }
-  .main__heading--container{
+  .main__heading--container {
     width: 200px;
-    /* height: auto; */
   }
-  .main__heading{
+  .main__heading {
     padding: var(--spacing-meduim) var(--spacing-small);
+  }
+  table {
+    font-size: 0.7rem;
   }
 }
 
 @media screen and (max-width: 470px) {
-  .header__logo{
+  .header__logo {
     width: 32px;
   }
-  table{
+  table {
     padding: 0;
+    font-size: 0.5rem;
+  }
+  .table__heading {
+    font-weight: 300;
   }
 }
