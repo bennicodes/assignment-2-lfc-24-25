@@ -1,6 +1,6 @@
 # Liverpool FC
 
-A simple menu which displays a list of web components which are in different states and shows how they work.
+A web application where you can find information about Liverpool FC players and the table standing from the 2023/24 Premier League season.
 
 ## Table of Contents
 
