@@ -15,6 +15,8 @@ I chose these components because I feel like almost all of them are used in ever
 Open the index.html file in your browser.
 Choose wether you want to view the Premier League table from last year or view the squad by clicking the button/link, or pressing the link in the navbar.
 
+For the cards you can hover them to display information about the player on the back.
+
 ## Features
 
 Card flip animation
