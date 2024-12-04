@@ -7,6 +7,8 @@ A web application where you can find information about Liverpool FC players and 
 [Usage](#usage)
 [Features](#features)
 [Sources](#sources)
+[License](#license)
+[Contact](#contact)
 
 ## Usage
 
@@ -25,3 +27,11 @@ I used https://transfermarkt.com to find info about the players and https://live
 
 For the flip/rotate animation on the player cards I used this video for inspiration and guidance:
 https://www.youtube.com/watch?v=OV8MVmtgmoY&t=244s&pp=ygUcY2FyZCBmbGlwIGFuaW1hdGlvbiBodG1sIGNzcw%3D%3D
+
+## License
+
+This project is licensed under the MIT license - see the LICENSE file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact me at [benedict.notoane@hotmail.com].
