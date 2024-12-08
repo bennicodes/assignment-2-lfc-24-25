@@ -6,7 +6,7 @@ A web application where you can find information about Liverpool FC players and 
 
 [Usage](#usage)
 [Features](#features)
-[Sources](#sources)
+[Resources](#resources)
 [License](#license)
 [Contact](#contact)
 
@@ -21,7 +21,10 @@ For the cards you can hover them to display information about the player on the 
 
 Card flip animation
 
-## Sources
+## Resources
+
+Netlify link:
+https://squadliverpoolfc.netlify.app
 
 I used https://transfermarkt.com to find info about the players and https://liverpool.com for inspiration for the footer design.
 
