@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceberg&display=swap");
 
 @font-face {
-  font-family: Open Sans;
+  font-family: Open-Sans;
   src: url(../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
@@ -41,7 +41,7 @@ header {
   display: flex;
   justify-content: center;
   padding: var(--spacing-large);
-  font-family: Open Sans, sans-serif;
+  font-family: Open-Sans, sans-serif;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -63,7 +63,7 @@ main {
   padding: var(--spacing-meduim);
   margin: var(--spacing-large) 0 var(--spacing-large) var(--spacing-meduim);
   border-radius: var(--link-border-radius);
-  font-family: Open Sans, sans-serif;
+  font-family: Open-Sans, sans-serif;
   font-size: var(--font-size-base);
 }
 
@@ -76,7 +76,7 @@ main {
   justify-content: space-evenly;
   padding-bottom: var(--spacing-x-large);
   border-bottom: 1px solid #000;
-  font-family: Open Sans, sans-serif;
+  font-family: Open-Sans, sans-serif;
 }
 
 .attacker-section {
@@ -162,7 +162,7 @@ card__header--back {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Open Sans, sans-serif;
+  font-family: Open-Sans, sans-serif;
   font-size: var(--font-size-large);
   font-weight: 600;
 }
